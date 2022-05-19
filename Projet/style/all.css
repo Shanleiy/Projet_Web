@@ -1,0 +1,33 @@
+.button {
+    background-color: #30B9CB;
+    border: none;
+
+    color: white;
+    text-align: center;
+    opacity: 0.6;
+    transition: 0.3s;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button:hover {
+    opacity: 1;
+}
+
+#date {
+    border-radius: 1rem;
+}
+
+.order {
+    width: 50%;
+    margin-left: 10%;
+}
+.all{
+    width: 80%;
+}
+@media screen and (max-width:665px) {
+    .order{
+        width: 100%;
+    }
+    
+}

@@ -1,0 +1,92 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section{
+    position: relative;
+    display: flex;
+    height: 450px;
+    width: 1075px;
+    align-items: center;
+}
+.swiper{
+    width: 950px;
+}
+section .card .image {
+    height: 140px;
+    width: 140px;
+}
+
+section .card .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.card{
+    position: relative;
+    border-radius: 20%;
+    margin: 20px 0;
+    
+}
+.card::before{
+    content: "";
+    position: absolute;
+    height: 45%;
+    width: 100%;
+
+}
+.card .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+.card .name-profession{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px ;
+}
+.name-profession .name{
+   font-size: 20px;
+   font-weight: 600; 
+}
+.name-profession .profession{
+   font-size: 20px;
+   font-weight: 500; 
+}
+.card .button{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+.card .button button{
+    outline: none;
+    border: none ;
+    padding: 8px 22px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    cursor:pointer;
+}
+.card .button button:hover{
+    background-color: azure;
+}
+.swiper-pagination-bullet{
+    height: 7px;
+    width: 26px;
+    border-radius: 25px;
+}
+.swiper-butto-next, .swiper-butto-prev{
+    opacity: 0.7;
+    transition: all 0.3s ease;
+    color:black;
+}
+.swiper-butto-next:hover, .swiper-butto-prev:hover{
+    opacity: 1;
+    color: black;
+}

@@ -1,0 +1,67 @@
+
+#carousel{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    width: 70%;
+    
+   
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: black;
+    border-radius: 10%;
+    
+    position: absolute;
+}
+img{
+    max-height: 400px;
+    object-fit: contain;
+    width: 100%;
+    
+}
+.card{
+    height: 700px;
+    max-height: 700px;
+
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card-button{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    
+}
+@media screen and (max-width:768px) {
+.card{
+    margin:auto;
+    
+}
+}
+
+
+@media screen and (max-width:600px) {
+    #carousel{
+        width: 70%;
+        
+       
+    }
+    img{
+        max-height: 200px;
+        margin: auto;
+        
+        
+    }
+    .card
+    {
+        width: 100%;
+    }
+    #carousel{
+        margin-left: 0px;
+    }
+}
